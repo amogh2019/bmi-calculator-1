@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
-  runApp(_BMICalculator());
+  runApp(BMICalculator());
 }
 
-class _BMICalculator extends StatelessWidget {
+class BMICalculator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var orangeColorScheme = ColorScheme.fromSwatch(
@@ -26,7 +26,7 @@ class _BMICalculator extends StatelessWidget {
           overlayShape: const RoundSliderOverlayShape(overlayRadius: 18),
         ),
       ),
-      home: Placeholder(),//HomeScreen(),
+      home: Placeholder(), //HomeScreen(),
     );
   }
 }
