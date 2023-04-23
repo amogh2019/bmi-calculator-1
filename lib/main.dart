@@ -1,3 +1,4 @@
+import 'package:bmi_calculator/screens/homescreen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -26,7 +27,7 @@ class BMICalculator extends StatelessWidget {
           overlayShape: const RoundSliderOverlayShape(overlayRadius: 18),
         ),
       ),
-      home: Placeholder(), //HomeScreen(),
+      home: HomeScreen(),
     );
   }
 }
