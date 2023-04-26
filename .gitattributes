@@ -1,6 +1,8 @@
 # Do not detect
 *.cc -linguist-detectable
 *.cpp -linguist-detectable
+*cmake -linguist-detectable
+*.c -linguist-detectable
 
 # Detect
 *.dart linguist-detectable
